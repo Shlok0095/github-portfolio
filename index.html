@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shlok Kumar - AI Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-content">
+            <div class="logo">SK</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="matrix-canvas"></canvas>
+        <div class="hero-content">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="images/profilepic.jpeg" alt="Shlok Kumar">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="ai-scanner"></div>
+            </div>
+            <div class="hero-text">
+                <h1 class="glitch" data-text="Shlok Kumar">Shlok Kumar</h1>
+                <div class="typewriter">
+                    <h2>AI & Machine Learning Engineer</h2>
+                </div>
+                <p>Specializing in ML, DL, NLP, Computer Vision & Generative AI</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Technical Arsenal</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                <h3>Machine Learning</h3>
+                <ul>
+                    <li>TensorFlow</li>
+                    <li>PyTorch</li>
+                    <li>Keras</li>
+                    <li>scikit-learn</li>
+                </ul>
+                <div class="skill-progress" data-progress="90"></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-language"></i></div>
+                <h3>NLP</h3>
+                <ul>
+                    <li>BERT</li>
+                    <li>Langchain</li>
+                    <li>Hugging Face</li>
+                    <li>GPT Models</li>
+                </ul>
+                <div class="skill-progress" data-progress="85"></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon"><i class="fas fa-eye"></i></div>
+                <h3>Computer Vision</h3>
+                <ul>
+                    <li>OpenCV</li>
+                    <li>CNN</li>
+                    <li>Image Processing</li>
+                    <li>Object Detection</li>
+                </ul>
+                <div class="skill-progress" data-progress="80"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">AI Innovations</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Multi model Chatbot</h3>
+                    <p>Advanced chatbot with image generation using Hugging Face & Groq</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Large Language Models</span>
+                        <span>Diffusion</span>
+                        <span>Langchain</span>
+                        <span>Groq</span>
+                    </div>
+                </div>
+                <div class="project-hover">
+                    <a href="https://github.com/Shlok0095/Multi_model_chatbot_with_ImageGeneration" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Face Recognization system</h3>
+                    <p>face recognisation model using functional API \ Simease Neural Netowrk in order to train multiple images at the same time</p>
+                    <div class="project-tech">
+                        <span>TensorFlow</span>
+                        <span>Siamese Neural Network</span>
+                        <span>CNN</span>
+                    </div>
+                </div>
+                <div class="project-hover">
+                    <a href="https://github.com/Shlok0095/Face-Recognization-Siamese_NN_modelmodel" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Multilingual Chatbot</h3>
+                    <p>Language-aware chatbot with sentiment analysis</p>
+                    <div class="project-tech">
+                        <span>NLP</span>
+                        <span>Transformers</span>
+                        <span>Large Language Models</span>
+                        <span>Langchain</span>
+                        <span>Data Injestion</span>
+                        <span>Hugging Face</span>
+                    </div>
+                </div>
+                <div class="project-hover">
+                    <a href="https://github.com/Shlok0095/MultiLinguial-chatbot-with-sentiment-detection" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Resume Download Section -->
+    <section id="resume" class="resume">
+       <h2 class="section-title" data-text="Download Resume">Download Resume</h2>
+       <div class="resume-container">
+           <div class="resume-preview">
+               <div class="preview-content">
+                   <i class="fas fa-file-pdf"></i>
+                   <h3>Shlok Kumar - Resume.pdf</h3>
+                   <p>Click to download my detailed resume</p>
+               </div>
+               <div class="download-stats">
+                   <span><i class="fas fa-download"></i> PDF Format</span>
+                   <span><i class="fas fa-file-alt"></i> 2 Pages</span>
+               </div>
+           </div>
+           <a href="documents/ShlokCV.pdf" download class="download-button">
+               <span class="button-text">Download CV</span>
+               <span class="button-icon">
+                   <i class="fas fa-cloud-download-alt"></i>
+               </span>
+           </a>
+       </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Neural Connection</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91-9934945261</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>eecc.shlok@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <p>linkedin.com/in/shlok-kumar-77646016b</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <p>github.com/Shlok0095</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Assistant Widget -->
+    <div class="ai-assistant">
+        <div class="ai-toggle">
+            <i class="fas fa-robot"></i>
+        </div>
+        <div class="ai-chat-container">
+            <div class="ai-chat-header">
+                <h3>AI Assistant</h3>
+                <button class="close-chat">×</button>
+            </div>
+            <div class="ai-chat-messages"></div>
+            <div class="ai-chat-input">
+                <input type="text" placeholder="Ask me anything...">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
